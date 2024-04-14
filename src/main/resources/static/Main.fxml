@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.Media.MediaView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeigsht="-Infinity" minWidth="-Infinity" prefHeight="692.0" prefWidth="967.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stream.radio.Controller">
+    <children>
+        <AnchorPane prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="1.0" layoutY="1.0" prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="28.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/mfm.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlmfm" layoutX="56.0" layoutY="118.0" mnemonicParsing="false" onAction="#mfmPlay" style="-fx-background-radius: 100;" text="mfm" />
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="172.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-11.0" prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="22.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/aswat.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlaswat" layoutX="48.0" layoutY="120.0" mnemonicParsing="false" onAction="#aswatPlay" style="-fx-background-radius: 100;" text="aswat" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="326.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-11.0" prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="11.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/chada.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlchada" layoutX="57.0" layoutY="121.0" mnemonicParsing="false" onAction="#chadaPlay" style="-fx-background-radius: 100;" text="chada" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="489.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-11.0" prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/mars.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlmars" layoutX="53.0" layoutY="121.0" mnemonicParsing="false" onAction="#marsPlay" style="-fx-background-radius: 100;" text="mars" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="652.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-13.0" prefHeight="173.0" prefWidth="165.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/med.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlmedradio" layoutX="46.0" layoutY="120.0" mnemonicParsing="false" onAction="#medradioPlay" style="-fx-background-radius: 100;" text="med radio" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="803.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="11.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/2m.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hltania" layoutX="72.0" layoutY="122.0" mnemonicParsing="false" onAction="#taniaPlay" style="-fx-background-radius: 100;" text="2m" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutY="173.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="11.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/atlantic.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlatlantic" layoutX="45.0" layoutY="121.0" mnemonicParsing="false" onAction="#atlanticPlay" style="-fx-background-radius: 100;" text="atlantic" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="164.0" layoutY="173.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-2.0" prefHeight="173.0" prefWidth="165.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="11.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/yabiladi.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlyabiladi" layoutX="52.0" layoutY="123.0" mnemonicParsing="false" onAction="#yabiladiPlay" style="-fx-background-radius: 100;" text="yabiladi" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="326.0" layoutY="173.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-11.0" prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="33.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/medi1.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlmedi" layoutX="57.0" layoutY="124.0" mnemonicParsing="false" onAction="#mediPlay" style="-fx-background-radius: 100;" text="medi1" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="483.0" layoutY="173.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-5.0" prefHeight="173.0" prefWidth="165.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="11.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/ness.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlness" layoutX="62.0" layoutY="125.0" mnemonicParsing="false" onAction="#nessPlay" style="-fx-background-radius: 100;" text="ness" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="645.0" layoutY="173.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-3.0" layoutY="-1.0" prefHeight="175.0" prefWidth="165.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="11.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/hitradio.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlhitradio" layoutX="49.0" layoutY="125.0" mnemonicParsing="false" onAction="#hitradioPlay" style="-fx-background-radius: 100;" text="hitradio" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="803.0" layoutY="173.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="104.0" layoutX="33.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/hitmaroc.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlhitmaroc" layoutX="48.0" layoutY="124.0" mnemonicParsing="false" onAction="#hitmarocPlay" style="-fx-background-radius: 100;" text="hit maroc" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutY="346.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="24.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/tarabradio.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hltarab" layoutX="53.0" layoutY="118.0" mnemonicParsing="false" onAction="#tarabPlay" style="-fx-background-radius: 100;" text="tarab" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="164.0" layoutY="346.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-3.0" prefHeight="173.0" prefWidth="172.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="31.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/watania.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="watania" layoutX="58.0" layoutY="120.0" mnemonicParsing="false" onAction="#wataniaPlay" style="-fx-background-radius: 100;" text="watania" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="326.0" layoutY="346.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-6.0" prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="4.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/moroccoenglish.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlmoroccoenglish" layoutX="24.0" layoutY="120.0" mnemonicParsing="false" onAction="#moroccoenglishPlay" prefHeight="30.0" prefWidth="115.0" style="-fx-background-radius: 100;" text="morocco english" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="483.0" layoutY="346.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="12.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/tamazgha.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hltamazgha" layoutX="51.0" layoutY="121.0" mnemonicParsing="false" onAction="#tamazghaPlay" style="-fx-background-radius: 100;" text="tamazgha" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="643.0" layoutY="346.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-4.0" prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="106.0" fitWidth="141.0" layoutX="10.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/izlan.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlizlan" layoutX="64.0" layoutY="122.0" mnemonicParsing="false" onAction="#izlanPlay" style="-fx-background-radius: 100;" text="izlan" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="803.0" layoutY="346.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-3.0" prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/coran.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlcoran" layoutX="60.0" layoutY="123.0" mnemonicParsing="false" onAction="#coranPlay" style="-fx-background-radius: 100;" text="coran" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutY="519.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView prefHeight="173.0" prefWidth="163.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="24.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/montecarlo.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlmontecarlo" layoutX="34.0" layoutY="123.0" mnemonicParsing="false" onAction="#montecarloPlay" style="-fx-background-radius: 100;" text="montecarlo" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="165.0" layoutY="519.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-2.0" prefHeight="173.0" prefWidth="165.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="33.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/aljazeera.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlaljazeera" layoutX="50.0" layoutY="122.0" mnemonicParsing="false" onAction="#aljazeeraPlay" style="-fx-background-radius: 100;" text="aljazeera" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="645.0" layoutY="519.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-2.0" prefHeight="173.0" prefWidth="165.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="32.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/skynewsarabia.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlskynewsarabia" layoutX="35.0" layoutY="123.0" mnemonicParsing="false" onAction="#skynewsarabiaPlay" style="-fx-background-radius: 100;" text="skynewsarabia" />
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="803.0" layoutY="519.0" prefHeight="173.0" prefWidth="163.0">
+            <children>
+                <MediaView layoutX="-2.0" prefHeight="173.0" prefWidth="165.0" />
+                <ImageView fitHeight="97.0" fitWidth="144.0" layoutX="37.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="../static/Images/bbcarabic.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="hlbbcarabic" layoutX="50.0" layoutY="124.0" mnemonicParsing="false" onAction="#bbcarabicPlay" style="-fx-background-radius: 100;" text="bbc arabic" />
+
+
+            </children>
+        </AnchorPane>
+      <AnchorPane layoutX="328.0" layoutY="518.0" prefHeight="174.0" prefWidth="318.0">
+         <children>
+            <Hyperlink layoutX="224.0" layoutY="37.0" text="Hyperlink" />
+            <Slider layoutX="89.0" layoutY="112.0" />
+            <ImageView fitHeight="56.0" fitWidth="82.0" layoutX="13.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" />
+            <Circle fill="WHITE" layoutX="34.0" layoutY="116.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Icon content="HELP_OUTLINE" layoutX="23.0" layoutY="102.0" />
+            <ImageView fitHeight="40.0" fitWidth="54.0" layoutX="242.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
